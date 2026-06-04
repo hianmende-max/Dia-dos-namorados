@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff0f5;
+    color:#333;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.hero{
+    background:linear-gradient(
+        135deg,
+        #ff758c,
+        #ff7eb3
+    );
+
+    color:white;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.subtitulo{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+.numero{
+    font-size:3rem;
+    color:#ff4d6d;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+.caixa-carta{
+    max-width:700px;
+    margin:auto;
+
+    background:white;
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+
+    line-height:1.8;
+}
+
+.timeline{
+    background:white;
+}
+
+.evento{
+    max-width:600px;
+    margin:25px auto;
+    padding:20px;
+
+    background:#ffe5ec;
+
+    border-radius:12px;
+}
+
+.galeria{
+    background:#fff0f5;
+}
+
+.fotos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.fotos img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+
+    border-radius:15px;
+
+    transition:0.3s;
+}
+
+.fotos img:hover{
+    transform:scale(1.05);
+}
+
+.final{
+    background:#ff7eb3;
+    color:white;
+}
+
+.final h2{
+    font-size:4rem;
+    margin-bottom:20px;
+}
